@@ -1,4 +1,4 @@
-# ML Kit Text Recognition single-digit capturing demo.
+# ML Kit Text Recognition Demo (Single-digit numbers capturing issue)
 
 This is a demo project to show that the ML Kit Text Recognizer is unable to capture the single digit numbers from receipts.
 
