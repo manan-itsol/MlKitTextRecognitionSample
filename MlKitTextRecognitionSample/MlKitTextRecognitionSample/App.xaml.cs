@@ -13,7 +13,6 @@ namespace MlKitTextRecognitionSample
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 

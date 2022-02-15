@@ -5,9 +5,9 @@ using Xamarin.Forms.Xaml;
 
 namespace MlKitTextRecognitionSample.Views
 {
-    public partial class AboutPage : ContentPage
+    public partial class TextRecognitionPage : ContentPage
     {
-        public AboutPage()
+        public TextRecognitionPage()
         {
             InitializeComponent();
         }
