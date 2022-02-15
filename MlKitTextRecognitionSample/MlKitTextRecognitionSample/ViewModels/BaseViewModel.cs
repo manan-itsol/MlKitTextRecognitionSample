@@ -1,5 +1,4 @@
-﻿using MlKitTextRecognitionSample.Models;
-using MlKitTextRecognitionSample.Services;
+﻿using MlKitTextRecognitionSample.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,8 +9,6 @@ namespace MlKitTextRecognitionSample.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
-
         bool isBusy = false;
         public bool IsBusy
         {
